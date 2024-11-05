@@ -1,0 +1,222 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.cabecera-index {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 100px;
+    border-bottom: solid 2px black;
+    font-size: 1.5rem;
+}
+
+.nombre-header, .contacto-header{
+    font-size: 1.5rem;
+}
+
+.nombre-header a {
+    text-decoration: none;
+    color:black;
+}
+
+.listalinks-header {
+    display:flex;
+    gap:3rem;
+    list-style: none;
+}
+
+.listalinks-header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+                             /* body index*/
+
+.seccion1-index {
+    display:flex;
+    align-items: center;
+    margin: 3rem 8rem;
+    justify-content:space-around;
+    }
+
+.texto-index {
+    margin-top: 3rem;
+    }
+
+.titulo-index {
+    padding-bottom:2rem;
+    font-size: 52px;
+    font-weight: bold;
+    }
+
+.introduccion-index {
+    font-size: 22px;
+    padding-right:1rem;
+    }
+
+
+
+.yo-foto {
+    width:368px;
+    height: 368px;
+    border-radius: 50%;
+    }
+
+.enlaces-index {
+    display:flex;
+    padding:2rem;
+    list-style:none;
+    }
+
+.enlaces-contacto {
+    padding:40px;
+    text-decoration:none;
+    }
+
+    .seccion2-index {
+        display:flex;
+        padding:64px;
+        gap:10px;
+        background-color: #EAF2FD; /* es celeste claro*/
+        align-items: center;
+        height: 383px ;
+       }
+
+       .texto-seccion2 {
+        
+        width:751px;
+        margin-left:9rem;
+       }
+
+       .seccion2-titulo {
+        font-size:30px;
+        padding-bottom:10px;
+       }
+
+       .parrafo1-seccion2 {
+        font-size: 20px;
+        padding-bottom:10px;
+       }
+
+       .parrafo2-seccion2 {
+        font-size: 20px;
+        }
+
+
+
+
+
+                       /*         SKILLS     */
+
+        .body-skills {
+            background-color: #F5F5F5; 
+        }
+                       
+        .hobbies-skills {
+            background-color: #F5F5F5;  
+            margin-top: 50px;
+        }
+
+        .titulo-skills {
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            padding-top:3rem;
+            font-size: 3rem;
+        }
+
+        .div-imgs {
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap:16px;
+            margin: 2rem 12rem;
+
+        }
+        .skill-img {
+            width:176px;
+            height: 174px;
+            border:solid 1px;
+            gap:8px;
+            }
+
+
+
+                       /*               HOBBIES          */
+
+        .hobbies {
+            background-color: #F5F5F5;
+        }
+
+        .titulo-hobbies {
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            padding-top:3rem;
+            font-size: 3rem;
+        }
+
+        .div-hobbies {
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap:16px;
+            margin: 2rem 12rem;
+
+        }
+        .hobbie-img {
+            width:176px;
+            height: 174px;
+            border:solid 1px;
+            gap:8px;
+            }
+
+
+
+
+            /* Formación*/
+
+.body-formacion {
+    background-color: #EAF2FD; /* En realidad es celete claro*/
+} 
+.seccion-formacion {
+    display:flex;
+    flex-direction: column;
+}
+
+.titulo-formacion {
+    display:flex;
+    justify-content: center;
+    font-size: 52px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.card-formacion {
+    display:flex;
+    justify-content: center;
+}
+
+.card-design, .card-datos, .card-ux {
+    margin-top: 50px;
+    padding:30px;
+    align-items: center;
+    
+}
+
+.datos-content, .ux-content, .design-content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.datos-img, .ux-img, .design-img {
+    width:368px;
+    height: 347px;
+}
